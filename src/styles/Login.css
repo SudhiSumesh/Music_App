@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.915), black);
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+header .logo {
+  padding-top: 2rem;
+  padding-inline: 2rem;
+  background-color: black;
+}
+header .logo img {
+  width: 100px;
+}
+main {
+  /* margin: 2rem; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.login-container {
+  background-color: black;
+  padding-inline: 9rem;
+  padding-top: 4rem;
+  border-radius: 0.6rem;
+}
+.login-container h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 46px;
+}
+
+.bg-green {
+  background-color: #1ed760;
+  color: black;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.input-container label {
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-left: -240px;
+}
+
+.input-container input {
+  background-color: transparent;
+  border: 1px solid rgba(166, 162, 162, 0.679);
+  padding-block: 0.9rem;
+  margin-block: 0.4rem;
+  padding-inline: 0.6rem;
+  border-radius: 0.3rem;
+  width: 300px;
+  font-size: 1rem;
+  color: white;
+  letter-spacing: 1px;
+}
+.input-container input::placeholder {
+  color: rgba(240, 248, 255, 0.504);
+}
+
+.next-btn {
+  margin-top: 1.3rem;
+  margin-left: 2.5rem;
+  padding-inline: 9rem;
+  padding-block: 0.9rem;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 2rem;
+  border: none;
+}
+.sign-container {
+  padding-inline: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: white;
+}
+.dont {
+  margin-left: 1.8rem;
+  color: rgb(171, 165, 165);
+}
+footer {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+}
+footer span {
+  color: rgb(171, 165, 165);
+  font-size: 12px;
+  text-align: center;
+}
+footer span a {
+  color: rgb(171, 165, 165);
+}

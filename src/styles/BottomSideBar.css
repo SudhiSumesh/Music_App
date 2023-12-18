@@ -1,0 +1,117 @@
+/* bottom-sidebar */
+.bottom-sidebar {
+  background-color: #121212;
+  padding: 1.4rem;
+  width: 218px;
+  position: fixed;
+  top: 150px;
+  bottom: 75px;
+  border-radius: 0.5rem;
+  margin: 0.5rem; 
+}
+
+.bottom-sidebar .navigation {
+  font-size: 15px;
+  margin-top: 0.5rem;
+  padding-block: 0.3rem;
+}
+.bottom-sidebar .navigation ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.bottom-sidebar .navigation ul li {
+  margin-bottom: 1rem;
+}
+.bottom-sidebar .navigation ul li .fa {
+  font-size: 20px;
+}
+.bottom-sidebar .navigation ul li a {
+  text-decoration: none;
+  color: rgba(240, 248, 255, 0.677);
+  transition: 0.3s ease-in-out;
+}
+
+.bottom-sidebar .navigation ul li a .fa {
+  color: rgba(240, 248, 255, 0.677);
+}
+.bottom-sidebar .navigation ul li a .fa-add {
+  padding-inline-start: 3rem;
+  padding-inline-end: 1.3rem;
+}
+.bottom-sidebar .navigation ul li a:hover,
+.bottom-sidebar .navigation ul li a:focus,
+.bottom-sidebar .navigation ul li a:active {
+  color: white;
+}
+
+.bottom-sidebar .navigation ul li a:hover .fa,
+.bottom-sidebar .navigation ul li a:focus .fa,
+.bottom-sidebar .navigation ul li a:active .fa {
+  color: white;
+  font-weight: bold;
+}
+
+
+.bottom-sidebar .play-art-btns button {
+  background-color: rgba(44, 42, 42, 0.762);
+  color: white;
+  border-radius: 3rem;
+  padding-inline: 0.9rem;
+  padding-block: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  transition: 0.2s ease-in-out;
+  
+}
+.bottom-sidebar .play-art-btns button:hover {
+  background-color: #383636;
+}
+/* botoom artists sec  */
+.bottom-sidebar .artist-sec-main {
+  position: relative;
+  height: 28rem;
+  overflow-y: hidden;
+ 
+}
+
+.bottom-sidebar .artist-sec-main:hover {
+  overflow-y: scroll;
+}
+.bottom-sidebar .artist-sec-main .artist-sec {
+  position: absolute;
+  margin-top: 1rem;
+}
+
+.bottom-sidebar .artist-sec-main::-webkit-scrollbar-thumb {
+  background-color: #454343;
+}
+
+.bottom-sidebar .artist-sec-main::-webkit-scrollbar {
+  width: 15px;
+
+  background-color: transparent;
+}
+.bottom-sidebar .artist-sec-main .artist-sec .single-artists-sec {
+  display: flex;
+  color: white;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.7rem;
+}
+.bottom-sidebar .artist-sec .single-artists-sec .cover-img img {
+  width: 50px;
+  border-radius: 50%;
+}
+.bottom-sidebar .artist-sec .single-artists-sec .details {
+  color: rgb(130, 133, 135);
+  font-size: 14px;
+  font-weight: 600;
+}
+.bottom-sidebar .artist-sec .single-artists-sec .details .name {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 0.2rem;
+}

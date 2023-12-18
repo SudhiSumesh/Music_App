@@ -1,0 +1,127 @@
+.song{
+    background:linear-gradient(rgb(192, 207, 238),rgb(46, 97, 208)) ;
+}
+.song .top-sec{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    color: white;
+}
+
+.song .top-sec .cover-img img{
+    width: 230px;
+    height: 230px;
+   border-radius: .1rem;
+}
+.song .top-sec .song-details span{
+   font-size: 14px;
+   font-weight: 700;
+
+} 
+.song .top-sec .song-details h1{
+    font-size: 86px;
+    padding-bottom: .5rem;    
+}
+.song .top-sec .song-details p{
+ padding-top: .7rem;
+ padding-bottom: 1rem;
+ color: rgba(240, 248, 255, 0.614);
+ font-weight: bold;
+ font-size: 14px;
+}
+
+.song .top-sec .song-details .spotify-logo-container{
+    display: flex;
+align-items: center;
+gap: 5px;
+}
+.song .top-sec .song-details .spotify-logo-container img{
+  background-color: black;
+  
+  width: 30px;
+  border-radius: 50%;
+}
+.song .bottom-sec {
+   color: white;
+    padding: 2rem;
+    box-shadow:  1px  rgba(83, 83, 159, 0.385);
+    background: linear-gradient(rgba(137, 167, 228, 0.712),#242424e6,#121212,#121212);
+}
+.song .bottom-sec .actions{
+    display: flex;
+    padding-bottom: 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.song .bottom-sec  .table .t-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding-bottom:.8rem ;
+    font-size: 14px;
+    color: rgb(180, 189, 197);
+    border-bottom: 1px solid rgba(86, 84, 84, 0.396);
+}
+.song .bottom-sec  .table .t-head .title{
+    display: flex;
+    gap: .7rem;
+}
+.song .bottom-sec  .table .t-head .fa-clock{
+    margin-right: 13px;
+}
+.song .bottom-sec  .table .t-body{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: rgb(169, 166, 166);
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    border-radius: .4rem;
+    padding: .5rem;
+
+}
+.song .bottom-sec  .table .t-body .song-details {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.song .bottom-sec  .table .t-body .song-details .cover-img img{
+    width: 35px;
+    border-radius: .2rem;
+}
+
+.song .bottom-sec  .table .t-body .song-details .name{
+    color:white;
+}
+.song .bottom-sec  .table .t-body .album-name{
+    margin-left: -82px;
+
+}
+.song .bottom-sec  .table .t-body:hover{
+     background-color: rgba(255, 255, 255, 0.085);
+}
+
+/* ply btn */
+.song .bottom-sec .actions .play{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+
+  .song .bottom-sec .actions .play .fa-play {
+ color: black;
+  padding-block: 1.7rem;
+  padding-inline: 1.3rem;
+  background-color: #48eb81;
+  border-radius: 100%;
+cursor: pointer;
+  
+  transition:.2s ease-in-out;
+}
+.song .bottom-sec .actions .list-icon .fa-list{
+    padding-left: 12px;
+}
+.song .bottom-sec .actions .play .fa:hover{
+    scale: 1.1;
+}

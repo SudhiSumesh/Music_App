@@ -1,0 +1,142 @@
+.function{
+    display: flex;
+    justify-content: center;
+    width: auto;
+   
+    right: -30px;
+    margin-top: .4rem;
+    padding-inline: 2rem;
+    background-color:black;
+  
+}
+  .function .music{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    margin-left: 0.5vh;
+
+  }
+  .function .music img{
+    width:3.5rem;
+    height: 3.5rem;
+    border: 0px solid;
+    border-radius: .4rem;
+
+  }
+  img{
+    cursor: pointer;
+  }
+  .function .music .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-left: 2vh;
+  
+  }
+  .function .music .details .name{
+    font-size: 14px;
+  
+
+    font-weight: bold;
+   
+  }
+  .function .music .details .artist{
+    font-size: 12px;
+ color: rgba(255, 255, 255, 0.753);
+  
+  }
+
+  .function .music .love i{
+    filter: invert();
+    padding: 0px;
+    margin-left: 4rem;
+   
+    width: 4vh;
+    height: 4vh;
+   
+  }
+  .function .playback{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    width: 60vw;
+    height: 4vh;
+  }
+  .function .playback .upper{
+    width: 50vw;
+    height: 6vh;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .function .playback .upper img{
+    width: 3vh;
+    height:3vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    filter: invert();
+  
+  }
+  .function .playback .upper img.pause{
+    width: 4vh;
+    height: 4vh;
+  }
+  .function .playback .lower{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.5vh;
+    color: white;
+  }
+  .function .playback .lower .line{
+    height: .2rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 1vh;
+    cursor: pointer;
+  }
+  .function .playback .lower .line .track{
+    background-color: #1db954;
+    ;
+    height: .2rem;
+  }
+  .function .playback .lower .text{
+    margin-left: 1vh;
+    margin-right: 1vh;
+  }
+  .function .control{
+    width: 20vw;
+    height: 11vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .function .control .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .function .control .images img{
+    width: 3vh;
+    height: 3vh;
+    filter: invert();
+    margin-left: 1vh;
+    margin-right: 1vh;
+  }
+  .function .control .images .line{
+    width: 13vh;
+    height: 1vh;
+    background-color: white;
+    border: 0px 0px 0px 0px solid;
+    border-radius: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+  }

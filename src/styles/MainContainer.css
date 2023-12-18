@@ -1,0 +1,12 @@
+/* main container */
+.main-container {
+   scroll-padding-top: 2rem;
+    overflow-y: auto;
+     height: 89vh;
+    margin-left: 280px;
+     position: sticky ;
+     top: 0px;
+    margin-top: .5rem;
+    border-radius: .5rem;
+    background:linear-gradient(#121212af,#121212,#121212);
+  }

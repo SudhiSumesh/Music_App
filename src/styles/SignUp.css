@@ -1,0 +1,164 @@
+
+.bg-black{
+    color: white;
+
+}
+
+header .logo {
+   margin-top: 1rem;
+    margin-left: 1rem;
+   
+  }
+  header .logo img {
+    width: 100px;
+  }
+
+  .bg-green{
+    background-color: #1ed760;
+    color: black;
+  }
+  .text-green{
+    color: #1ed760;
+  }
+
+  .signup-container{
+    width: 100%;
+   display: flex;
+   margin-left:120px ;
+   align-items: center;
+   flex-direction: column; 
+  
+  }
+  .signup-container main{
+     display: flex;
+     align-items: center;
+    
+     flex-direction: column;
+     width: 50%;
+     
+  }
+  
+  .signup-container main section .layout-container{
+    display: flex;
+    margin-inline: 1rem;
+   
+     flex-direction: column;
+     
+    padding: 1rem;
+    width: 70%;
+    
+  }
+  .signup-container main section .layout-container h1{
+    
+     font-size: 45px;
+     text-align: start;
+     font-weight: bolder;
+
+  }
+  
+  
+  .signup-container main section .layout-container form .input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top:2.5rem ;
+
+  }
+    .signup-container main section .layout-container form .input-container label{
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-left:0;
+  }
+    .signup-container main section .layout-container form .input-container input{
+     background-color: transparent;
+     border: 1px solid rgba(166, 162, 162, 0.679);
+     padding-block:.9rem ;
+     margin-block: .7rem;
+     padding-inline:.6rem ;
+     border-radius: .3rem;
+     width: 300px;
+     font-size: 1rem;
+     letter-spacing: 1px;
+  }
+    .signup-container main section .layout-container form .input-container input::placeholder{
+    color: rgba(240, 248, 255, 0.504);
+  }
+    .signup-container main section .layout-container form .next-btn{
+    margin-top: 1.3rem;
+    padding-inline: 9rem;
+    padding-block: .9rem;
+    margin-left: -.3rem;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 2rem;
+    border: none;
+  }
+    .signup-container main section .layout-container form div a{
+    font-size: 14px;
+   
+  }
+  .signup-container main section .layout-container .divider{
+    margin-block: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .signup-container main section .layout-container .divider span{
+    margin-inline: .5rem;
+  }
+  .signup-container main section .layout-container  .divider::before,.divider::after{
+    content: ' ';
+    
+    padding-inline: 4.6rem;
+    text-decoration: line-through;
+    border-bottom: 2px solid rgb(87, 87, 92);
+    color: rgba(23, 24, 25, 0.736);
+  }
+  .signup-container main section .layout-container .google{
+    display: flex;
+    align-items: center;
+     gap: 50px;
+    border: 1px solid rgba(166, 162, 162, 0.679);
+    margin-left: .3rem;
+    border-radius: 2rem;
+    width: 250px;
+    padding-inline: 2rem;
+    padding-block: .7rem;
+    margin-bottom: .7rem;
+  }
+  .signup-container main section .layout-container .google span{
+    font-weight: bold;
+    font-size:14px ;
+  }
+  .signup-container main section .layout-container .signupwith{
+    border-bottom: 1px solid rgb(87, 87, 92);
+    padding-bottom:1rem ;
+    width: 320px;
+    margin-bottom: 2rem;
+  }
+  .signup-container main section .layout-container .login-container {
+    padding-inline:2rem ;
+    margin-bottom: 3rem;
+  }
+  .signup-container main section .layout-container .login-container a{
+    color: white;
+  }
+  .signup-container main section .layout-container .login-container span{
+    margin-left: -1.2rem;
+    color: rgb(171, 165, 165);
+  }
+.signup-container footer{
+  display: flex;
+
+ flex-direction: column;
+ margin-left:-250px ;
+
+ }
+ .signup-container footer span{
+    color: rgb(171, 165, 165);
+    font-size:12px ;
+    text-align: center;
+  }
+  .signup-container footer span a{
+    color:rgb(171, 165, 165) ;
+  }

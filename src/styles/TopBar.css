@@ -1,0 +1,171 @@
+/*  top bar */
+.topbar {
+    position: sticky;
+    top: 0;
+  background-color: #121212;
+  border-radius:  .5rem 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.topbar .prev-next-buttons button {
+  background-color: transparent;
+  border: none;
+  padding: 1.5rem;
+  font-size: 15px;
+  color: rgb(84, 84, 83);
+}
+
+.topbar .navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-inline-end: 2rem;
+}
+.topbar .navbar ul li {
+  padding-block: 0.7rem;
+  padding-inline-end:.6rem ;
+  color: rgba(255, 255, 255, 0.471);
+  cursor: pointer;
+}
+.topbar .navbar ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.492);
+}
+.topbar .navbar ul li .login-btn {
+  background-color: white;
+  border-radius: 3rem;
+  padding-inline: 1.2rem;
+  padding-block: 0.55rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.topbar .navbar ul li .install-btn{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 3rem;
+  padding-inline: .9rem;
+  padding-block: 0.55rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  
+  
+}
+.topbar .navbar ul li .install-btn .fa-arrow-down{
+    border: 1px solid white;
+    border-radius:50%;
+    padding-block: .15rem;
+    padding-inline: .25rem;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.topbar .navbar ul li .bell-btn,
+.topbar .navbar ul li .user-btn{
+  background-color: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 0.712);
+  border-radius: 3rem;
+  padding-inline: .7rem;
+  padding-block: 0.6rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.topbar .navbar ul li button{
+  transition: .1s ease-in-out;
+}
+.topbar .navbar ul li button:hover,
+.topbar .navbar ul li button:hover,
+.topbar .navbar ul li button:hover,
+.topbar .navbar ul li button:hover {
+  scale: 1.05;
+}
+/* responsive top bar */
+.responsive-menubar {
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  display: none;
+}
+.responsive-menubar .logo {
+  margin: 0.5rem;
+}
+.responsive-menubar .logo img {
+  width: 130px;
+}
+.fa-bars {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 20px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+.fa-close {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 20px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  visibility: hidden;
+  cursor: pointer;
+}
+.responsive-topbar {
+  position: fixed;
+  padding-bottom: 2rem;
+  padding-right: 4rem;
+  padding-left: 1rem;
+  left: 0;
+  top: 0;
+  border-right: 1px solid rgba(128, 128, 128, 0.533);
+  background-color: black;
+  height: 85.6%;
+  display: none;
+}
+.responsive-topbar .logo {
+  margin-top: 0.8rem;
+  margin-bottom: 0.1rem;
+}
+.responsive-topbar .logo img {
+  width: 130px;
+}
+.responsive-topbar .navbar ul {
+  list-style: none;
+  padding: 0.5rem;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+.responsive-topbar .navbar ul li {
+  margin-top: 2rem;
+}
+.responsive-topbar .navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+.responsive-topbar .login-btn {
+  background-color: white;
+  border-radius: 2rem;
+  padding-inline: 1.3rem;
+  padding-block: 0.4rem;
+  margin-left: 0.1rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.responsive-topbar .sign-btn {
+  background-color: white;
+  border-radius: 2rem;
+  padding-inline: 1rem;
+  padding-block: 0.4rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}

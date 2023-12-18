@@ -1,0 +1,22 @@
+/* spotify-playlist */
+.spotify-playlist{
+    padding:  20px 10px;
+    overflow: hidden;
+}
+.spotify-playlist h2{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-left: 2rem;
+}
+.spotify-playlist .list{
+    display: flex;
+    justify-content: start;
+     margin-left:25px ;
+    overflow: hidden;
+    gap: 2rem;
+}
+a{
+color: inherit;
+text-decoration: none;
+}
